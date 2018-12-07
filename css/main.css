@@ -19,18 +19,14 @@ ul {
 }
 
 /* header */
-.header {}
+.header {
+  padding-bottom: 16px;
+}
 
 /* header-logo */
 .logo-wrap {
   height: 100px;
 }
-
-.block-logo {}
-
-.logo {}
-
-
 
 .text-logo a {
   color: #222222;
@@ -126,4 +122,44 @@ ul {
 
 .menu ul li a:hover {
   border-bottom: 3px solid #f16d7f;
+}
+
+/* SLIDER */
+.slider {
+  width: 100%;
+  background-color: #e8e8e8;
+  background-image: url(../img/Layer_24.png);
+  background-repeat: no-repeat;
+  background-position-x: center;
+  height: 613px;
+}
+
+.slider-flex{
+  height: 613px;
+}
+
+.block-slider-text {
+  border-left: 12px solid #f16d7f;;
+}
+
+.block-slider-text h4 {
+  max-width: 485px;
+  color: #222222;
+  font-weight: 700;
+  /* Text style for "T, HE BRAN" */
+  font-size: 40px;
+  letter-spacing: 1.5px;
+  /* Text style for "OF LUXERIO" */
+}
+
+.block-slider-text__bottom {
+  letter-spacing: 1px;
+  font-weight: 400;
+
+}
+
+.block-slider-text__last-word {
+  color: #f16d7f;
+  letter-spacing: 1px;
+  font-weight: 400;
 }
