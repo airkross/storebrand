@@ -166,8 +166,6 @@ ul {
 }
 
 /* CATEGORY */
-.for-men {}
-
 .accesories {
   width: 100%;
   background-color: #dadad2;
@@ -183,7 +181,11 @@ ul {
   top: 26px;
 }
 
-.category-title-accesories{
+.category-img{
+  width: 100%;
+}
+
+.category-title-accesories {
   width: 175px;
   height: 82px;
   background-color: #ffffff;
@@ -192,7 +194,7 @@ ul {
   left: 0;
 }
 
-.category-title-women{
+.category-title-women {
   width: 175px;
   height: 82px;
   background-color: #ffffff;
@@ -200,7 +202,7 @@ ul {
   top: 26px;
 }
 
-.category-title-kid{
+.category-title-kid {
   width: 175px;
   height: 82px;
   background-color: #ffffff;
