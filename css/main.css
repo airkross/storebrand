@@ -1,0 +1,73 @@
+* {
+  font-family: 'Lato', sans-serif;
+}
+
+/* общее */
+a,
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+
+/* header */
+.header {}
+
+/* header-logo */
+.logo-wrap {
+  height: 100px;
+}
+
+.block-logo {}
+
+.logo {}
+
+.text-logo {
+  margin-left: 13px;
+}
+
+.text-logo a {
+  color: #222222;
+  font-size: 27px;
+  font-weight: 300;
+  line-height: 32px;
+  text-transform: uppercase;
+
+}
+
+.text-logo__d {
+  color: #f16d7f;
+  font-weight: 400;
+  letter-spacing: 0.68px;
+}
+
+/* header-search */
+.input-group-hover {
+  cursor: pointer;
+}
+
+.browse:hover {
+  color: #495057;
+}
+
+.dropdown-item-header {
+  color: #232323;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 32px;
+  text-transform: uppercase;
+  letter-spacing: 0.35px;
+}
+
+/* header-card */
+.my-account {
+  width: 130px;
+  height: 40px;
+  background-color: #f16d7f;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.my-account:hover {
+  color: #ffffff;
+}
