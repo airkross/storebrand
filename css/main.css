@@ -9,6 +9,15 @@ a:focus {
   text-decoration: none;
 }
 
+li {
+  list-style: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
 /* header */
 .header {}
 
@@ -70,4 +79,40 @@ a:focus {
 
 .my-account:hover {
   color: #ffffff;
+}
+
+.card-in-item:hover {
+  background-color: rgba(0, 0, 0, .05);
+  cursor: pointer;
+}
+
+.card-item-desription h2 {
+  color: #222222;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  min-width: 76px;
+}
+
+.card-item-desription h3 {
+  color: #f16d7f;
+  font-size: 12px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.card-item-desription h3 span {
+  font-size: 10px;
+}
+
+.card-total-price {
+  color: #222222;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+/* menu */
+.menu ul li a:hover{
+  border-bottom: 3px solid #f16d7f;
 }
