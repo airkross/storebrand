@@ -1,1 +1,1 @@
-# https://airkross.github.io/storebrand/.
+# https://airkross.github.io/storebrand/
