@@ -30,9 +30,7 @@ ul {
 
 .logo {}
 
-.text-logo {
-  margin-left: 13px;
-}
+
 
 .text-logo a {
   color: #222222;
@@ -65,6 +63,12 @@ ul {
   line-height: 32px;
   text-transform: uppercase;
   letter-spacing: 0.35px;
+}
+
+.form-control {
+  color: #a4a4a4;
+  font-size: 14px;
+  font-weight: 300;
 }
 
 /* header-card */
@@ -113,6 +117,13 @@ ul {
 }
 
 /* menu */
-.menu ul li a:hover{
+.menu ul li a {
+  color: #222222;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.menu ul li a:hover {
   border-bottom: 3px solid #f16d7f;
 }
